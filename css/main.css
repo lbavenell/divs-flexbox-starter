@@ -98,6 +98,7 @@ textarea {
 
 html {
   background-color: #fff;
+  font-size: 10px;
   height: 100%;
 }
 
@@ -106,6 +107,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: #2d7331;
 }
 
 .wrapper {
@@ -120,17 +122,20 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  background-color: #2d7331;
+  height: 210px;
   display: flex;
   width: 30%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  font-family: 'Comic Neue', cursive;
+  padding: 30px;
+
 }
 
-
-
-
+.div-2, .div-3  {
+  border-left: solid #2cbf7b 1px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
